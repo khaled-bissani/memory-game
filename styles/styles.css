@@ -8,6 +8,7 @@ img{
 /* Flex */
 .flex{
     display: flex;
+    margin-bottom: 25px;
 }
 /* Card */
 .container {
@@ -47,7 +48,7 @@ img{
     transform: rotateY(180deg);
 }
 .back > img{
-    width: 100%;
+    width: 45%; 
 }
 /* Flip the card */
 .card.flipped{
