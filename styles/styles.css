@@ -5,6 +5,23 @@ body{
 img{
     height: 100%;
 }
+h1{
+    text-align: center;
+}
+h2{
+    text-align: center;
+}
+button{
+    padding: 10px 20px;
+    font-size: 20px;
+    margin-bottom: 20px;
+    margin-left: 630px;
+    border-radius: 50px;
+    border: none;
+    background-color: #FF0000;
+    color: #fff;
+    cursor: pointer;
+}
 /* Flex */
 .flex{
     display: flex;
@@ -24,6 +41,7 @@ img{
     text-align: center;
     transition: transform 0.6s;
     transform-style: preserve-3d;
+    cursor: pointer;
 }
 /* Front layout */
 .front{
