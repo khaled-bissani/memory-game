@@ -21,15 +21,28 @@ img{
     transform-style: preserve-3d;
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
 }
+/* Front layout */
 .front{
     position: absolute;
     width: 100%;
     height: 100%;
     backface-visibility: hidden;
-}
-.front {
     background-color: #fff;
 }
 .font > img{
+    width: 100%;
+}
+/* Back layout */
+.back{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+    background-color: #fff;
+}
+.back {
+    transform: rotateY(180deg);
+}
+.back > img{
     width: 100%;
 }
